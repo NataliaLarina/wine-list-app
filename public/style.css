@@ -1,0 +1,27 @@
+body {
+  background-color:	#1099c1;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+h1, h2{
+  color:  #94002D;;
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+button {
+  background-color: #AB2B52;
+  border: 2px solid;
+  border-color: #94002D;
+  border-radius: 20px;
+}
+#red, #white, #sparkling, #rose{
+  text-align: center;
+  background-color: #FF0000;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}

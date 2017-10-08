@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wine List</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>My Favorite Wines List</h1>
+    <div class="col-lg-2" id="red">
+      <h2>Red Wine</h2>
+      <form action="#" method="post">
+          <img src="images/wine.png" width="100px" length="auto" alt="">
+          <input id="redlist" name="redlist">
+          <button id="redw" class="red" type="submit">+</button>
+      </form>
+      <ul id="redwine">
+      </ul>
+    </div>
+    <div class="col-lg-2" id="white">
+      <h2>White Wine</h2>
+      <form class="white" action="#" method="post">
+          <img src="images/white.png" width="100px" length="auto" alt="">
+          <input id="whitelist" name="whitelist">
+          <button id="whitew" type="submit">+</button>
+      </form>
+      <ul id="whitewine">
+      </ul>
+    </div>
+    <div class="col-lg-2" id="sparkling">
+      <h2>Sparkling</h2>
+      <form class="sparkling" action="#" method="post">
+          <img src="images/sparkling.png" width="100px" length="auto" alt="">
+          <input id="sparklinglist" name="sparklinglist">
+          <button id="sparklingw" type="submit">+</button>
+      </form>
+      <ul id="sparklingwine">
+      </ul>
+    </div>
+    <div class="col-lg-2" id="rose">
+      <h2>Rose</h2>
+      <form class="rose" action="#" method="post">
+          <img src="images/wine.png" width="100px" length="autp" alt="">
+          <input id="roselist" name="roselist">
+          <button id="rosew" type="submit">+</button>
+      </form>
+      <ul id="rosewine">
+      </ul>
+    </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
+  </script>
+  <script src="app.js"></script>
+  </body>
+</html>
