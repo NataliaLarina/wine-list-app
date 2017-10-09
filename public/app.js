@@ -35,10 +35,10 @@ window.onload = function() {
 
 function addClickHandler() {
   $('li').click(function(event) {
-      var isChecked = $(this).children('input').prop('checked');
-      console.log(isChecked);
-      if (isChecked === true) {
-        $(this).remove();
-      }
+    var isChecked = $(this).children('input').prop('checked');
+    console.log(isChecked);
+    if (isChecked === true) {
+    $(this).remove();
+    }
   });
 }
