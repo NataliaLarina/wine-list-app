@@ -21,12 +21,14 @@ window.onload = function() {
     event.preventDefault();
     whiteWineList.push($('#sparklingist').val());
     $('#sparklingwine').append("<li><input type='checkbox'>" + $('#sparklinglist').val() + "</li>");
+    $('#sparklinglist').val("");
     addClickHandler();
   });
   $('#rosew').click(function(event){
     event.preventDefault();
     whiteWineList.push($('#roselist').val());
     $('#rosewine').append("<li><input type='checkbox'>" + $('#roselist').val() + "</li>");
+    $('#roselist').val("");
     addClickHandler();
   });
 };
